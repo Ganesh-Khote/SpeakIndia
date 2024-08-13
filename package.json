@@ -1,5 +1,8 @@
 {
-  "dependencies": {
-    "pkg": "^5.8.1"
+  
+  "scripts": {
+    "start":"cd Backend && nodemon index.js",
+    "prebuild":"cd Backend && npm run build",
+    "build":"cd Frontend && npm run build"
   }
 }
